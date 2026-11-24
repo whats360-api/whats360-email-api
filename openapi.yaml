@@ -1,5 +1,5 @@
 openapi: 3.0.3
-info: {title: Whats360 Email Send API (draft from dashboard docs), version: 0.1.0, description: Draft. Not verified against the live service.}
+info: {title: whats360.live Email Send API (draft from dashboard docs), version: 0.1.0, description: Draft. Not verified against the live service.}
 servers: [{url: https://whats360.live}]
 paths:
   /api/auth/login:
