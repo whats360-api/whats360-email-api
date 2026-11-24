@@ -1,5 +1,5 @@
-# Whats360 Email Send API
-> Documentation for sending email through Whats360 (login for token, POST /api/v1/email/send, DNS records). Draft from dashboard docs, not live-tested.
+# whats360.live Email Send API
+> Documentation for sending email through whats360.live (login for token, POST /api/v1/email/send, DNS records). Draft from dashboard docs, not live-tested.
 - [README](README.md)
 - [OpenAPI draft](openapi.yaml)
 - [Gaps](DOCUMENTATION_GAPS.md)
