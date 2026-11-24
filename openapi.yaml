@@ -20,7 +20,7 @@ paths:
         required: true
         content:
           application/json:
-            schema: {type: object, required: [from, to, subject, body], properties: {from: {type: string}, to: {type: string}, subject: {type: string}, body: {type: string}}}
+            schema: {type: object, required: [from, to, subject], properties: {from: {type: string}, to: {type: string}, subject: {type: string}, body: {type: string}}}
       responses:
         '200': {description: '{"ok": true, "data": {"message": "Email sent successfully"}}'}
         '4XX': {description: '{"ok": false, "error": "..."}'}
